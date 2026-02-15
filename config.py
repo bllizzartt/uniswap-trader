@@ -71,6 +71,19 @@ TOKENS = {
     "USDT_POLYGON": {"address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F", "decimals": 6, "network": "polygon"},
     "DAI_POLYGON": {"address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063", "decimals": 18, "network": "polygon"},
     "WBTC_POLYGON": {"address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6", "decimals": 8, "network": "polygon"},  # Wrapped Bitcoin on Polygon
+    
+    # Low-Priced Tokens for Testing (Under $10)
+    "LINK": {"address": "0x514910771AF9Ca656af840dff83E8264EcF986CA", "decimals": 18, "network": "ethereum"},  # Chainlink ~$15
+    "UNI": {"address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984", "decimals": 18, "network": "ethereum"},  # Uniswap ~$8
+    "MATIC": {"address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0", "decimals": 18, "network": "ethereum"},  # Polygon ~$0.50
+    "SHIB": {"address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE", "decimals": 18, "network": "ethereum"},  # Shiba Inu ~$0.00002
+    "PEPE": {"address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933", "decimals": 18, "network": "ethereum"},  # Pepe ~$0.00001
+    "DOGE": {"address": "0x4206931337dc273a630d328dA6441786BfaD668f", "decimals": 8, "network": "ethereum"},  # Dogecoin bridged ~$0.15
+    
+    # Polygon versions (cheaper gas)
+    "LINK_POLYGON": {"address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39", "decimals": 18, "network": "polygon"},
+    "UNI_POLYGON": {"address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f", "decimals": 18, "network": "polygon"},
+    "MATIC_POLYGON": {"address": "0x0000000000000000000000000000000000001010", "decimals": 18, "network": "polygon"},
 }
 
 # Uniswap V3 Contracts
