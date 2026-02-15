@@ -1,0 +1,38 @@
+{
+  "btc_price": 68754.0,
+  "price_history": [
+    68000,
+    68500,
+    69000,
+    69500,
+    68754.0
+  ],
+  "account_a": {
+    "name": "Strategy A - Momentum",
+    "balance_usdc": 10000.0,
+    "balance_btc": 0.0,
+    "position": null,
+    "entry_price": null,
+    "trades": [],
+    "total_pnl": 0.0,
+    "win_count": 0,
+    "loss_count": 0,
+    "trades_today": 0,
+    "daily_pnl": 0.0
+  },
+  "account_b": {
+    "name": "Strategy B - Mean Reversion",
+    "balance_usdc": 10000.0,
+    "balance_btc": 0.0,
+    "position": null,
+    "entry_price": null,
+    "trades": [],
+    "total_pnl": 0.0,
+    "win_count": 0,
+    "loss_count": 0,
+    "trades_today": 0,
+    "daily_pnl": 0.0
+  },
+  "test_start": "2026-02-15T22:53:16.821069",
+  "total_cycles": 1
+}

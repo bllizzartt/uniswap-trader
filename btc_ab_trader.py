@@ -282,19 +282,23 @@ def generate_ab_report(state, report_type="morning"):
     b_trades = b['win_count'] + b['loss_count']
     b_win_rate = (b['win_count'] / b_trades * 100) if b_trades > 0 else 0
     
-    # Determine winner
+    # Analyze performance for learning
     a_return = ((a_total / 10000) - 1) * 100
     b_return = ((b_total / 10000) - 1) * 100
     
+    # Determine which approach is teaching us more
     if a_total > b_total:
-        winner = "🏆 STRATEGY A (Momentum)"
+        winner = "📚 LEARNING: Momentum performing better"
         diff = a_total - b_total
+        lesson = "Trend-following working in current market regime"
     elif b_total > a_total:
-        winner = "🏆 STRATEGY B (Mean Reversion)"
+        winner = "📚 LEARNING: Mean Reversion performing better"
         diff = b_total - a_total
+        lesson = "Contrarian approach winning - market is ranging"
     else:
-        winner = "🤝 TIED"
+        winner = "📚 Both strategies learning"
         diff = 0
+        lesson = "Market regime unclear - continuing data collection"
     
     report = f"""
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

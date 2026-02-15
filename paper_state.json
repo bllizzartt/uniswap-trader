@@ -1,0 +1,36 @@
+{
+  "balance_usdc": 10000.0,
+  "balance_matic": 0.0,
+  "trades": [
+    {
+      "type": "BUY",
+      "timestamp": "2026-02-15T22:39:26.147507",
+      "usdc_spent": 100,
+      "matic_received": 200.0,
+      "price": 0.5,
+      "pnl": 0
+    },
+    {
+      "type": "BUY",
+      "timestamp": "2026-02-15T22:39:27.328299",
+      "usdc_spent": 1000,
+      "matic_received": 2000.0,
+      "price": 0.5,
+      "pnl": 0
+    },
+    {
+      "type": "SELL",
+      "timestamp": "2026-02-15T22:39:30.422076",
+      "matic_sold": 2200.0,
+      "usdc_received": 1100.0,
+      "price": 0.5,
+      "pnl": 0.0,
+      "pnl_percent": 0.0
+    }
+  ],
+  "positions": [],
+  "total_pnl": 0.0,
+  "win_count": 0,
+  "loss_count": 1,
+  "created_at": "2026-02-15T22:39:25.805723"
+}
